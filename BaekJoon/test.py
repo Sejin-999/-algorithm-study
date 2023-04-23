@@ -1,14 +1,13 @@
-import sys
-n = int(sys.stdin.readline())
-# n = int(input())
-count = 0;
-sum = 0
+n = int(input())
 
-for i in range(0,n) :
-    for j in range(0,n):
-        #sum += i*j
-        # print(f"{i} * {j} = {sum}")
-        count +=1
-        
-print(count)
-print(2) # i , j -> x x  -> 2
+for i in range(1,n+1):
+    temp_list= list(map(int, str(i)))
+    temp_list_len = len(temp_list)
+    print_sum = i
+    sum = i
+    for j in range(temp_list_len):
+        sum += temp_list[j]
+    
+    if sum == n :
+        print(print_sum)
+        break
