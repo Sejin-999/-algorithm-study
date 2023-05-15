@@ -1,9 +1,11 @@
+package 그리드;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Main {
+public class A11399 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -28,5 +30,4 @@ public class Main {
         System.out.println(total_time);
 
     }
-
 }
