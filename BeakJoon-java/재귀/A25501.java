@@ -1,8 +1,10 @@
+package 재귀;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+public class A25501 {
     static int cnt = 0;
     public static void main(String[] args) throws IOException {
 //        System.out.println("ABBA: " + isPalindrome("ABBA") + cnt);
