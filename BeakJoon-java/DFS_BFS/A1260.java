@@ -1,9 +1,12 @@
+package DFS_BFS;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
 
-public class Main {
+public class A1260 {
     static int n; //정점의 수
     static int m; //간선의수
     static int v; //시작점
@@ -70,3 +73,11 @@ public class Main {
 
     }
 }
+
+
+//        for(int i=0; i<m; i++){
+//            for(int j=0; j<m; j++){
+//                System.out.print(branch[i][j]);
+//            }
+//            System.out.println();
+//        }
